@@ -1,13 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>MP1</title>
-    </head>
-    <body>
-        <h1>Hello World! Welcome to MP1!</h1>
-        <img src="assets/image.jpg">
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f1eb" />
+    <meta
+      name="description"
+      content="Shuotong Xu — backend engineering, AI assistants, and distributed systems."
+    />
+    <title>Shuotong Xu — Backend & AI Systems</title>
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="nav__brand" href="#home" aria-label="Shuotong Xu, home"
+          >SX<span>.</span></a
+        ><button
+          class="nav__toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <ul class="nav__links">
+          <li><a class="nav__link is-active" href="#home">Home</a></li>
+          <li><a class="nav__link" href="#about">About</a></li>
+          <li><a class="nav__link" href="#experience">Experience</a></li>
+          <li><a class="nav__link" href="#work">Projects</a></li>
+          <li><a class="nav__link" href="#education">Education</a></li>
+          <li><a class="nav__link" href="#publication">Publication</a></li>
+          <li><a class="nav__link" href="#skills">Skills</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="nav__cta" href="#contact"
+          >Let’s talk <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+      <div class="hero__content section-wrap">
+        <p class="eyebrow">
+          <span class="eyebrow__dot"></span> BACKEND ENGINEERING · AI SYSTEMS
+        </p>
+        <h1>
+          Hi, I’m <span>Shuotong Xu.</span><br />I build AI that <em>works.</em>
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__intro">
+            Backend engineer focused on AI assistants, retrieval systems, and
+            reliable services at scale.
+          </p>
+          <a
+            class="round-link"
+            href="#about"
+            aria-label="Scroll to about section"
+            >↓</a
+          >
+        </div>
+        <p class="hero__note">CHICAGO, IL · PORTFOLIO 2026</p>
+      </div>
+      <div class="hero__side-label" aria-hidden="true">SCROLL TO EXPLORE</div>
+    </header>
+    <main>
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section-wrap about__grid">
+          <p class="eyebrow section__eyebrow">01 / PROFILE</p>
+          <div class="about__copy">
+            <h2 id="about-title">
+              Backend for AI,<br />built with <em>care.</em>
+            </h2>
+            <p class="body-large">
+              I’m a computer science graduate student focused on backend
+              engineering for AI assistants.
+            </p>
+            <p class="body-copy">
+              I enjoy turning AI prototypes into dependable products: building
+              retrieval and service layers, connecting systems, and making them
+              observable and resilient. I’m pursuing an MCS at UIUC after
+              completing my bachelor’s in Computer Science and Technology at
+              Hong Kong Baptist University.
+            </p>
+            <button class="text-link" type="button" data-modal-open>
+              A little more <span>↗</span>
+            </button>
+          </div>
+          <div class="about__stamp" aria-label="AI systems with a human touch">
+            <span class="about__stamp-ring"
+              >AI SYSTEMS · BUILT THOUGHTFULLY ·</span
+            ><span class="about__stamp-star" aria-hidden="true">✳</span>
+          </div>
+        </div>
+      </section>
+      <section
+        class="experience section"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section__eyebrow">02 / EXPERIENCE</p>
+              <h2 id="experience-title">
+                Building useful<br />AI <em>services.</em>
+              </h2>
+            </div>
+            <p class="experience__lede">
+              Internship experience across AI assistant backends, retrieval, and
+              cloud systems.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="timeline__item">
+              <div class="timeline__date">JUN — AUG 2026</div>
+              <div class="timeline__main">
+                <div class="timeline__title">
+                  <h3>Tmall Campus <span>(Alibaba Group)</span></h3>
+                  <span class="timeline__place">Hangzhou, China</span>
+                </div>
+                <p>
+                  Software Engineer Intern · Built backend services for an AI
+                  assistant serving campus workflows, with a focus on
+                  asynchronous LLM requests and integrating university services.
+                </p>
+                <div class="tag-row">
+                  <span>Python / Django</span><span>Java / Spring Boot</span
+                  ><span>Celery / Redis</span>
+                </div>
+              </div>
+            </article>
+            <article class="timeline__item">
+              <div class="timeline__date">JUN — SEP 2025</div>
+              <div class="timeline__main">
+                <div class="timeline__title">
+                  <h3>AI Action Technology</h3>
+                  <span class="timeline__place">Zhuhai, China</span>
+                </div>
+                <p>
+                  Software Engineer Intern · Rebuilt an internal policy AI
+                  assistant, focusing on grounded RAG retrieval, answer
+                  verification, and cloud deployment.
+                </p>
+                <div class="tag-row">
+                  <span>Python / FastAPI</span><span>RAG / Milvus</span
+                  ><span>AWS / Kubernetes</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="work section" id="work" aria-labelledby="work-title">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section__eyebrow">03 / PROJECTS</p>
+              <h2 id="work-title">
+                Systems with<br />thought behind <em>them.</em>
+              </h2>
+            </div>
+          </div>
+          <div class="carousel" aria-label="Project carousel">
+            <button
+              class="carousel-arrow carousel-arrow--prev"
+              type="button"
+              data-carousel-prev
+              aria-label="Previous project"
+            >
+              ←
+            </button>
+            <div class="carousel__viewport">
+            <div class="carousel__track">
+              <article class="project-card is-active">
+                <div
+                  class="project-card__art art-shape art-shape--one"
+                  aria-hidden="true"
+                >
+                  <span>01</span><i></i>
+                </div>
+                <div class="project-card__meta">
+                  <span>AI AGENTS · DISTRIBUTED SYSTEMS</span
+                  ><span>01 / 03</span>
+                </div>
+                <h3>Conversational Shopping Agent</h3>
+                <p>
+                  Multi-platform shopping assistant with parallel search,
+                  streaming APIs, hybrid retrieval, and resilient tool
+                  orchestration.
+                </p>
+              </article>
+              <article class="project-card">
+                <div
+                  class="project-card__art art-shape art-shape--two"
+                  aria-hidden="true"
+                >
+                  <span>02</span><i></i>
+                </div>
+                <div class="project-card__meta">
+                  <span>RAG · KNOWLEDGE SYSTEMS</span><span>02 / 03</span>
+                </div>
+                <h3>Policy Assistant</h3>
+                <p>
+                  Grounded policy Q&amp;A across more than 1,100 documents,
+                  combining hybrid retrieval with answer verification.
+                </p>
+              </article>
+              <article class="project-card">
+                <div
+                  class="project-card__art art-shape art-shape--three"
+                  aria-hidden="true"
+                >
+                  <span>03</span><i></i>
+                </div>
+                <div class="project-card__meta">
+                  <span>BACKEND · ASYNC SYSTEMS</span><span>03 / 03</span>
+                </div>
+                <h3>Campus AI Assistant Services</h3>
+                <p>
+                  Async LLM request processing and a unified integration layer
+                  for campus services across 40+ campuses.
+                </p>
+              </article>
+            </div>
+            </div>
+            <button
+              class="carousel-arrow carousel-arrow--next"
+              type="button"
+              data-carousel-next
+              aria-label="Next project"
+            >
+              →
+            </button>
+          </div>
+          <p class="work__hint">Use the arrows to explore <span>↗</span></p>
+        </div>
+      </section>
+      <section
+        class="education section"
+        id="education"
+        aria-labelledby="education-title"
+      >
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section__eyebrow">04 / EDUCATION</p>
+              <h2 id="education-title">Learning, <em>always.</em></h2>
+            </div>
+          </div>
+          <div class="education-grid">
+            <article class="education-card">
+              <span class="education-card__date"
+                >AUG 2026 — MAY 2028 · EXPECTED</span
+              >
+              <h3>University of Illinois Urbana-Champaign</h3>
+              <p>Master of Computer Science</p>
+              <span class="education-card__place"
+                >Urbana-Champaign, Illinois</span
+              >
+            </article>
+            <article class="education-card">
+              <span class="education-card__date">SEP 2022 — JUN 2026</span>
+              <h3>Hong Kong Baptist University</h3>
+              <p>Bachelor of Science in Computer Science and Technology</p>
+              <span class="education-card__place">Hong Kong, China</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="publication section"
+        id="publication"
+        aria-labelledby="publication-title"
+      >
+        <div class="section-wrap publication__inner">
+          <p class="eyebrow">05 / PUBLICATION</p>
+          <div>
+            <h2 id="publication-title">
+              Research with a<br />visual <em>perspective.</em>
+            </h2>
+            <article class="publication-card">
+              <span class="publication-card__badge">ACCEPTED · ICME 2026</span>
+              <h3>
+                PromptMask: A Controllable Text-Driven Masking Framework for
+                Self-Supervised Visual Pretraining
+              </h3>
+              <p>
+                Co-first author · IEEE International Conference on Multimedia
+                and Expo
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="focus section" id="skills" aria-labelledby="focus-title">
+        <div class="section-wrap">
+          <div class="focus__intro">
+            <p class="eyebrow section__eyebrow">06 / TOOLKIT</p>
+            <h2 id="focus-title">My working<br /><em>toolkit.</em></h2>
+            <p>
+              Most at home building backend services and AI-powered
+              applications, from retrieval to deployment.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <span class="skill-card__number">01</span>
+              <h3>Backend &amp; APIs</h3>
+              <p>
+                Python · Java · Django/DRF · FastAPI · Spring Boot · REST · gRPC
+                · GraphQL
+              </p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-card__number">02</span>
+              <h3>AI &amp; Retrieval</h3>
+              <p>
+                RAG · LLM agents · PyTorch · TensorFlow · Milvus · BM25 ·
+                OpenSearch · scikit-learn
+              </p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-card__number">03</span>
+              <h3>Data &amp; Messaging</h3>
+              <p>
+                MySQL · PostgreSQL · MongoDB · Redis · Kafka · RabbitMQ · Celery
+              </p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-card__number">04</span>
+              <h3>Cloud &amp; Systems</h3>
+              <p>
+                AWS · Docker · Kubernetes · Prometheus · Grafana · Terraform ·
+                CI/CD · k6
+              </p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-card__number">05</span>
+              <h3>Programming</h3>
+              <p>
+                Python · Java · C++ · Go · C# · JavaScript/TypeScript · SQL ·
+                Rust
+              </p>
+            </article>
+            <article class="skill-card">
+              <span class="skill-card__number">06</span>
+              <h3>Foundations</h3>
+              <p>
+                Distributed systems · Data structures · Object-oriented design ·
+                Unix/Linux · TCP/IP
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="film section" aria-labelledby="film-title">
+        <div class="film__backdrop" aria-hidden="true"></div>
+        <video
+          class="film__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          controls
+          preload="metadata"
+          aria-label="Flower video"
+        >
+          <source
+            src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="film__scrim" aria-hidden="true"></div>
+        <div class="section-wrap film__content">
+          <p class="eyebrow">A SMALL PAUSE</p>
+          <h2 id="film-title">A moment in<br /><em>motion.</em></h2>
+          <p class="film__caption">
+            A quiet visual interlude to pause, reset, and notice the details.
+          </p>
+          <a class="film__cta" href="#work"
+            >Explore my work <span aria-hidden="true">↗</span></a
+          >
+          <p class="film__credit">
+            Video source: MDN Web Docs interactive examples
+          </p>
+        </div>
+      </section>
+      <section
+        class="contact section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="section-wrap contact__inner">
+          <p class="eyebrow section__eyebrow">07 / SAY HELLO</p>
+          <h2 id="contact-title">
+            Let’s build<br />something <em>useful.</em>
+          </h2>
+          <p class="contact__copy">
+            Based in Chicago, IL · Open to conversations about backend
+            engineering and AI systems.
+          </p>
+          <a
+            class="contact__button"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=xushuotong8%40gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            >xushuotong8@gmail.com <span>↗</span></a
+          ><a class="contact__phone" href="tel:+17737053075"
+            >+1 (773) 705-3075</a
+          >
+          <div class="socials" aria-label="Social media links">
+            <a
+              href="https://github.com/XST3108"
+              aria-label="GitHub profile"
+              target="_blank"
+              rel="noreferrer"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.32-3.75-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.12.08 1.71 1.15 1.71 1.15 1 .1.76 2.13 3.25 1.62.1-.73.39-1.23.7-1.51-2.48-.28-5.09-1.24-5.09-5.53 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.04-1.14 3.04-1.14.61 1.53.23 2.67.12 2.95.71.78 1.14 1.77 1.14 2.99 0 4.3-2.61 5.25-5.1 5.52.4.35.75 1.02.75 2.06v3.05c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"
+                /></svg
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/shuotong-xu-02a013436/"
+              aria-label="Shuotong Xu on LinkedIn"
+              target="_blank"
+              rel="noreferrer"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM7.93 18.9H4.98V9.4h2.95v9.5ZM6.45 8.1a1.71 1.71 0 1 1 .02-3.42 1.71 1.71 0 0 1-.02 3.42Zm12.47 10.8h-2.94v-4.62c0-1.1-.02-2.51-1.53-2.51-1.53 0-1.76 1.2-1.76 2.43v4.7H9.75V9.4h2.82v1.3h.04c.39-.75 1.35-1.53 2.78-1.53 2.98 0 3.53 1.96 3.53 4.51v5.22Z"
+                /></svg
+            ></a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=xushuotong8%40gmail.com"
+              aria-label="Email Shuotong Xu in Gmail"
+              target="_blank"
+              rel="noreferrer"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm-.4 3.25-7 5.25a1 1 0 0 1-1.2 0l-7-5.25a.75.75 0 1 1 .9-1.2l6.7 5.02 6.7-5.02a.75.75 0 1 1 .9 1.2Z"
+                /></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="section-wrap footer__inner">
+        <a class="footer__mark" href="#home">SX<span>.</span></a>
+        <p>Made thoughtfully by Shuotong Xu · <span id="year">2026</span></p>
+        <a href="#home" class="footer__top">Back to top ↑</a>
+      </div>
+    </footer>
+    <div class="modal" data-modal aria-hidden="true">
+      <div class="modal__scrim" data-modal-close></div>
+      <section
+        class="modal__panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button
+          class="modal__close"
+          type="button"
+          data-modal-close
+          aria-label="Close dialog"
+        >
+          ×
+        </button>
+        <p class="eyebrow">A NOTE FROM SHUOTONG</p>
+        <h2 id="modal-title">Reliable systems,<br /><em>useful AI.</em></h2>
+        <p>
+          I’m interested in backend engineering for AI products: retrieval and
+          agent systems, asynchronous services, and the infrastructure that
+          makes them reliable in production.
+        </p>
+        <a class="text-link" href="#contact" data-modal-contact
+          >Get in touch <span>↗</span></a
+        >
+      </section>
+    </div>
+  </body>
 </html>

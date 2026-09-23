@@ -1,3 +1,11 @@
+# Sources & Attributions
+
+- Background photo (Publication section): "Mountain ridges under warm sky" by Sven Pieren on Unsplash — https://unsplash.com/photos/mountain-ridges-under-warm-sky-ibikgDapcp4 (Unsplash License)
+- Video (Film section): `flower.mp4` from MDN Web Docs interactive examples (CC0) — https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4
+- Social / UI icons: hand-written inline SVG paths and CSS `mask` data-URI icons (no icon library)
+- Reference reading: MDN Web Docs (CSS Grid, Flexbox, `background-attachment`, `mask`, `@keyframes`, `Element.getBoundingClientRect`, `scrollIntoView`), Sass documentation (variables, mixins)
+- LLM assistance: Chatgpt was used while building this page; chat logs are listed in `llm_logs.csv`
+
 # MP #1: One Web Page To Rule Them All
 ### Due: Tuesday, Sep 22, 2026, 11:59PM CT
 
@@ -87,7 +95,7 @@ In order for us to view and grade your MP, you will be deploying your webpage wi
 You will need to do some additional work to properly deploy the website. There are a few settings you will need to change in your GitHub repository.
 1. Set GitHub Pages Deployment Source to Github Actions
    - In your Github repo, go to Settings > Pages > Build and Deployment > Source > Select "GitHub Actions"
-`.github/workflows/static.yml` file automatically makes a GitHub CI pipeline run to build and deploy your code as a website. After the pipeline finishes, your site should be live at `https://<your-github-username>.github.io/mp1`. **It may take up to 10-30 minutes for the site to go live after the first deployment.**
+   `.github/workflows/static.yml` file automatically makes a GitHub CI pipeline run to build and deploy your code as a website. After the pipeline finishes, your site should be live at `https://<your-github-username>.github.io/mp1`. **It may take up to 10-30 minutes for the site to go live after the first deployment.**
 
 ## Submission Details
 
